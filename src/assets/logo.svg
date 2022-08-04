@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="123" height="63" viewBox="0 0 123 63">
+  <g id="Group_1" data-name="Group 1" transform="translate(-1681 -16)">
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(1774 18)" fill="none" stroke="#1d1d1d" stroke-linejoin="round" stroke-width="10">
+      <rect width="30" height="60" stroke="none"/>
+      <rect x="5" y="5" width="20" height="50" fill="none"/>
+    </g>
+    <text id="راهرو" transform="translate(1681 58)" fill="#1d1d1d" font-size="40" font-family="IRANSans-Black, IRANSans" font-weight="800"><tspan x="0" y="0">راهرو</tspan></text>
+  </g>
+</svg>
