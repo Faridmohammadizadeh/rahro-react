@@ -2,9 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
+  position: sticky;
+
   top: 0;
   width: 100%;
+
   background-color: rgba(241, 244, 246, 0.5);
   backdrop-filter: blur(60px);
   padding: 1.5rem 6rem;
@@ -13,10 +16,12 @@
 }
 
 .rahro__navbar-links {
+
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+
 }
 
 .rahro__navbar-links-logo {
@@ -37,6 +42,8 @@
 .rahro__navbar-sign {
   display: flex;
   justify-content: flex-end;
+  /* margin-right: 0; */
+  /* position: absolute; */
 }
 
 .rahro__navbar-links_container p,
@@ -63,11 +70,11 @@
   font-family: var(--font-family);
   font-size: 25px;
   line-height: 25px;
-  left: 1153px;
-  top: 55px;
+
+  /* left: 1153px;
+  top: 55px; */
   cursor: pointer;
   background: rgba(0, 0, 0, 0);
-
   border: 2px solid black;
   border-radius: 25px;
   transition: color 0.3s ease-in-out 0s, background-color 0.3s ease-in-out 0s;

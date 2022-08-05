@@ -1,12 +1,12 @@
 .profile__container {
-    margin-top: 6rem;
+    /* margin-top: 6rem; */
     margin-right: 6rem;
     margin-left: 6rem;
 
 }
 
 .profile__container__main {
-    margin-top: 7rem;
+    margin-top: 2rem;
     /* height: 75vh; */
     width: 100%;
     border-radius: 25px;

@@ -4,14 +4,17 @@
   margin: 0;
   scroll-behavior: smooth;
   direction: rtl;
+
 }
 
-body {
-  background: var(--color-bg);
-}
+
 
 .gradient__bg {
   background: #F1F4F6;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1920px;
+
 }
 
 .gradient__text {
@@ -39,16 +42,19 @@ body {
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
+
 @keyframes rotate-center {
   0% {
     -webkit-transform: rotate(0);
     transform: rotate(0);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -59,6 +65,7 @@ body {
   .section__padding {
     padding: 4rem;
   }
+
   .section__margin {
     margin: 4rem;
   }

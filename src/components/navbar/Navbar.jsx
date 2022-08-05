@@ -18,7 +18,7 @@ const Menu = () => (
 );
 const Login = () => (
   <>
-   <button type="button">ورود / ثبت نام</button>
+    <button type="button">ورود / ثبت نام</button>
   </>
 );
 
@@ -58,7 +58,7 @@ const Navbar = () => {
             <div className="rahro__navbar-menu_container-links">
               <Menu />
               <div className="rahro__navbar-menu_container-links-sign ">
-              <Login/>
+                <Login />
               </div>
             </div>
           </div>
