@@ -5,8 +5,13 @@
   scroll-behavior: smooth;
   direction: rtl;
 
+
 }
 
+::selection {
+  color: #00db66;
+  background: #1d1d1d;
+}
 
 
 .gradient__bg {
