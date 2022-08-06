@@ -1,26 +1,37 @@
-import React from 'react'
-import "./experince.css"
+import React from "react";
+import "./experince.css";
+import iconCode from "../../../assets/icons/code.svg";
 
 const ExperinceCard = () => (
-
-    <div className='a'>salam</div>
-
+  <div className="experince__card_body">
+    <div className="Experince__card__content">
+      <div className="Experince__card__content-icon">
+        <img src={iconCode} />
+      </div>
+      <div className="Experince__card__content-title">
+        <h1>شرکت تبلیغاتی ژاهو</h1>
+        <h2>فرانت اند دولپور</h2>
+      </div>
+      <div className="Experince__card__content-line"></div>
+      <div className="Experince__card__content-years">از1399 تا 1399</div>
+    </div>
+  </div>
 );
 const Experince = () => {
-    return (
-        <div className='test'>
-            <ExperinceCard />
-            <ExperinceCard />
-            <ExperinceCard />
-            <ExperinceCard />
-            <ExperinceCard />
+  return (
+    <div>
+      <div className="section__title">
+        <h1>تجارب تخصصی</h1>
+      </div>
+      <div className="experince__grid-system">
+        <ExperinceCard />
+        <ExperinceCard />
+        <ExperinceCard />
+        <ExperinceCard />
+        <ExperinceCard />
+      </div>
+    </div>
+  );
+};
 
-
-
-
-
-        </div>
-    )
-}
-
-export default Experince
+export default Experince;

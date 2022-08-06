@@ -4,8 +4,6 @@
   margin: 0;
   scroll-behavior: smooth;
   direction: rtl;
-
-
 }
 
 ::selection {
@@ -13,13 +11,11 @@
   background: #1d1d1d;
 }
 
-
 .gradient__bg {
-  background: #F1F4F6;
+  background: #f1f4f6;
   margin-right: auto;
   margin-left: auto;
   max-width: 1920px;
-
 }
 
 .gradient__text {
