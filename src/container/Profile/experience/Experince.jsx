@@ -1,5 +1,6 @@
 import React from "react";
 import "./experince.css";
+import ProfileTitle from "../ProfileTitle/ProfileTitle";
 import iconCode from "../../../assets/icons/code.svg";
 
 const ExperinceCard = () => (
@@ -20,9 +21,8 @@ const ExperinceCard = () => (
 const Experince = () => {
   return (
     <div>
-      <div className="section__title">
-        <h1>تجارب تخصصی</h1>
-      </div>
+      <ProfileTitle title="سوابق شغلی" />
+
       <div className="experince__grid-system">
         <ExperinceCard />
         <ExperinceCard />

@@ -10,11 +10,6 @@ const Profile = () => {
     <div>
       <ProfileHeader />
       <Experince />
-      <ProfileHeader />
-      <ProfileHeader />
-      <ProfileHeader />
-      <ProfileHeader />
-      <ProfileHeader />
     </div>
   );
 };

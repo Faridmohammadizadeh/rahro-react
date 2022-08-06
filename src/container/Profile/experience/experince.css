@@ -7,12 +7,6 @@
   gap: 1rem;
 }
 
-.section__title {
-  display: flex;
-  justify-content: start;
-  margin: 4rem 8rem 2rem 0;
-}
-
 .experince__card_body {
   display: flex;
   background-color: #fff;
@@ -91,10 +85,6 @@
     margin-right: 4rem;
     margin-left: 4rem;
   }
-
-  .section__title {
-    margin-right: 6rem;
-  }
 }
 
 @media screen and (max-width: 800px) {
@@ -108,18 +98,12 @@
     margin-right: 2rem;
     margin-left: 2rem;
   }
-  .section__title {
-    margin-right: 4rem;
-  }
 }
 
 @media screen and (max-width: 450px) {
   .experince__grid-system {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
-  }
-  .section__title {
-    margin-right: 2.5rem;
   }
   .Experince__card__content-title h1 {
     font-size: 20px;
