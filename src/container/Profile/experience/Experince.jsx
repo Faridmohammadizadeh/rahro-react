@@ -21,7 +21,7 @@ const ExperinceCard = () => (
 const Experince = () => {
   return (
     <div>
-      <ProfileTitle title="سوابق شغلی" />
+      <ProfileTitle title="تجارب تخصصی" />
 
       <div className="experince__grid-system">
         <ExperinceCard />

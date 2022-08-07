@@ -1,0 +1,113 @@
+.education__card__body {
+  background-color: #fff;
+  margin: 0 6rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+}
+
+.education__card__body ol {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.education__card__body li {
+  display: flex;
+  margin-bottom: 1rem;
+  width: 15vw;
+}
+
+.education__card__university-icon,
+.education__card__calendar-icon {
+  width: 2rem;
+  height: 2rem;
+}
+.education__card__degree-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-top: 0.3rem;
+}
+
+.education__card__university,
+.education__card__degree,
+.education__card__calendar {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+h2 {
+  font-size: 24px;
+  margin-right: 0.5rem;
+}
+
+.education__card__line {
+  display: flex;
+  justify-content: center;
+  height: 2px;
+  margin: 1rem 2rem 0 2rem;
+
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.education__card__body div:last-child > .education__card__line {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  h2 {
+    font-size: 20px;
+  }
+
+  .education__card__line {
+    height: 1px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .education__card__body {
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .education__card__university-icon,
+  .education__card__calendar-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  .education__card__degree-icon {
+    width: 0.7rem;
+    height: 0.7rem;
+    margin-right: 0.1rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .education__card__body {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding: 1rem;
+  }
+
+  .education__card__body ol {
+    flex-wrap: wrap;
+  }
+  .education__card__body li {
+    flex: 40%;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .education__card__body {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}

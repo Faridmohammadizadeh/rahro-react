@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import "./navbar.css";
+import { RiCloseLine } from "react-icons/ri";
+import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../../assets/logo.png";
 
 const Menu = () => (
@@ -46,7 +47,7 @@ const Navbar = () => {
             onClick={() => setToggleMenu(false)}
           />
         ) : (
-          <RiMenu3Line
+          <GiHamburgerMenu
             color="#1d1d1d"
             size={27}
             onClick={() => setToggleMenu(true)}

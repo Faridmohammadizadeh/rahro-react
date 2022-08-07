@@ -16,12 +16,10 @@
 }
 
 .rahro__navbar-links {
-
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-
 }
 
 .rahro__navbar-links-logo {
@@ -89,7 +87,6 @@
   margin-left: 1rem;
   display: none;
   position: relative;
-
 }
 
 .rahro__navbar-menu svg {
@@ -112,8 +109,6 @@
   left: 0;
   margin-top: 1rem;
   min-width: 230px;
-
-
 }
 
 .rahro__navbar-menu_container p {
@@ -135,10 +130,7 @@
   color: #fff;
 }
 
-
-
 .rahro__navbar-menu_container-links-sign button {
-
   transition: color 0.3s ease-in-out 0s, background-color 0.3s ease-in-out 0s;
 }
 
@@ -152,31 +144,35 @@
 } */
 
 @media screen and (max-width: 1050px) {
+  .rahro__navbar {
+    padding: 1rem 4rem;
+  }
+  .rahro__navbar-links-logo img {
+    width: 80px;
+    height: 40px;
+  }
   .rahro__navbar-links_container {
     display: none;
   }
 
   .rahro__navbar-sign {
     display: none;
-
   }
 
   .rahro__navbar-menu {
     display: flex;
   }
-
 }
 
 @media screen and (max-width: 700px) {
   .rahro__navbar {
-
-    padding: 2rem 4rem;
+    padding: 1rem 2rem;
   }
 }
 
 @media screen and (max-width: 550px) {
   .rahro__navbar {
-    padding: 2rem;
+    padding: 0.5rem 0.75rem;
   }
 
   .rahro__navbar-menu_container {
