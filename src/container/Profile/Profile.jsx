@@ -5,6 +5,7 @@ import avatar from "../../assets/avatar.jpg";
 import Experince from "./experience/Experince.jsx";
 import ProfileHeader from "./profile-header/ProfileHeader";
 import Education from "./Education/Education";
+import Comments from "./Comments/Comments";
 
 const Profile = () => {
   return (
@@ -12,6 +13,7 @@ const Profile = () => {
       <ProfileHeader />
       <Experince />
       <Education />
+      <Comments />
     </div>
   );
 };
