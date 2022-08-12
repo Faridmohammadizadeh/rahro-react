@@ -1,3 +1,7 @@
+.comment {
+  margin-top: 1rem;
+}
+
 .comment__main {
   position: relative;
   height: 30vh;
@@ -63,6 +67,7 @@
   z-index: 10;
   cursor: pointer;
   user-select: none;
+  transition: 0.3s;
 }
 .leftArrow {
   color: #1d1d1d;
@@ -73,6 +78,7 @@
   z-index: 10;
   cursor: pointer;
   user-select: none;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 1050px) {
@@ -121,5 +127,14 @@
   }
   .comment__container {
     height: 36vh;
+  }
+  .comment__body__header h1 {
+    font-size: 16px;
+  }
+  .comment__paragrapgh p {
+    font-size: 12px;
+  }
+  .commnet__card__line {
+    margin: 1rem 0.3rem;
   }
 }

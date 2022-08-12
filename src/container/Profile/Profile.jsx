@@ -6,6 +6,7 @@ import Experince from "./experience/Experince.jsx";
 import ProfileHeader from "./profile-header/ProfileHeader";
 import Education from "./Education/Education";
 import Comments from "./Comments/Comments";
+import Rating from "./Rating/Rating";
 
 const Profile = () => {
   return (
@@ -13,6 +14,7 @@ const Profile = () => {
       <ProfileHeader />
       <Experince />
       <Education />
+      <Rating />
       <Comments />
     </div>
   );
