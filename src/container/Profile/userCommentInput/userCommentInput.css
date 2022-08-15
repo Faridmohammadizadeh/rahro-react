@@ -1,0 +1,110 @@
+.userCommentInput {
+
+    width: 60%;
+
+    margin: 1rem auto;
+}
+
+.userCommentInput__main {
+    /* height: 20vh; */
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid black; */
+    transition: all .18s ease-in-out;
+}
+
+/* .userCommentInput__main:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), -2px -2px 5px rgba(0, 0, 0, 0.2);
+} */
+
+.userCommentInput__main__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.userCommentInput__main__top-title-button {
+    font-size: 28px;
+    background-color: #00db66;
+    padding: 0.2rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: all .18s ease-in-out;
+
+}
+
+.userCommentInput__main__top-title-button:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.164), -2px -2px 5px rgba(0, 0, 0, 0.164);
+}
+
+.userCommentInput__main__top-rating {
+    font-size: 20px;
+}
+
+
+
+.userCommentInput__main__line {
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    margin: 1rem;
+
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.75),
+            rgba(0, 0, 0, 0));
+}
+
+.userCommentInput__main__bottom {
+    /* width: auto; */
+    margin: 1rem;
+    /* overflow-wrap: break-word; */
+    /* word-break: break-all; */
+    /* word-wrap: break-word; */
+    /* white-space: nowrap; */
+    /* background-color: red; */
+}
+
+.userCommentInput__main__bottom input {
+    outline: none;
+    border: none;
+    height: 100%;
+    display: inline-block;
+    word-break: break-all;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    font-size: 20px;
+    white-space: nowrap;
+    /* overflow-wrap: break-word; */
+    /* word-break: break-all; */
+    /* overflow: scroll */
+    /* word-wrap: break-word; */
+    /* background-color: aquamarine; */
+
+    /* word-wrap: break-word;
+    word-break: break-all; */
+
+}
+
+
+.userCommentInput__main__bottom input::placeholder {
+    font-size: 20px;
+}
+
+.userCommentInput__main__bottom-textarea {
+    /* border: none; */
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border: none;
+    height: 100%;
+    /* display: inline-block; */
+    /* word-break: break-all; */
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    font-size: 20px;
+}

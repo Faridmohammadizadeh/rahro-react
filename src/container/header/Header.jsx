@@ -13,7 +13,7 @@ const Header = () => {
           <p className='breakline'>تا شما را برای رسیدن به کریر حرفه ایتان راهنمایی کنند.</p>
         </div>
         <div className='rahro__header-content__button'>
-          <button type="button">همین حالا ثبت نام کن</button>
+          <button type="button">همین حالا وارد راهرو شوید</button>
         </div>
       </div>
       <div className='rahro__header-image'>
