@@ -4,26 +4,13 @@ import ProfileTitle from "../ProfileTitle/ProfileTitle";
 import iconbuilding from "../../../assets/icons/buildings.svg";
 import iconcircle from "../../../assets/icons/circle.svg";
 import iconcalendar from "../../../assets/icons/calendar.svg";
-
-const infos = [
-  { university: "دانشگاه گیلان", degree: "لیسانس", calendar: "1397 الی 1401" },
-  {
-    university: " امیر کبیر",
-    degree: "فوق لیسانس",
-    calendar: "1401 در حال تحصیل",
-  },
-  {
-    university: "دانشگاه آزاد پیام نور برلین",
-    degree: "فوق لیسانس",
-    calendar: "1401 در حال تحصیل",
-  },
-];
+import { educationContents } from "../data/education";
 
 const Education = () => (
   <div>
     <ProfileTitle title="تحصیلات" />
     <div className="education__card__body">
-      {infos.map((info) => {
+      {educationContents.map((info) => {
         const list = (
           <div className="education__main">
             <ol>
@@ -32,6 +19,7 @@ const Education = () => (
                   <img
                     className="education__card__university-icon"
                     src={iconbuilding}
+                    alt="icon"
                   />
                   <h2>{info.university}</h2>
                 </div>
@@ -41,6 +29,7 @@ const Education = () => (
                   <img
                     className="education__card__degree-icon"
                     src={iconcircle}
+                    alt="icon"
                   />
                   <h2>{info.degree}</h2>
                 </div>
@@ -50,6 +39,7 @@ const Education = () => (
                   <img
                     className="education__card__calendar-icon"
                     src={iconcalendar}
+                    alt="icon"
                   />
                   <h2>{info.calendar}</h2>
                 </div>
