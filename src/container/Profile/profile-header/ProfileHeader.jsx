@@ -4,7 +4,7 @@ import { profileContent } from "../data/profiles.js";
 // import avatar from "../../../assets/avatar.jpg";
 // import banner from "../../../assets/header.jpg";
 
-const userID = profileContent[0].ID;
+const userID = profileContent[1].ID;
 
 const ProfileBanner = (props) => {
   return (
