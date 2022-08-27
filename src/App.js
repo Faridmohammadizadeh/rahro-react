@@ -10,6 +10,7 @@ import {
 } from "./container";
 import "./App.css";
 import Profile from "./container/Profile/Profile";
+import Pannel from "./container/pannel/Pannel";
 // import Experince from "./container/Profile/experience/Experince.jsx"
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
     <div className="App">
       <div className="gradient__bg">
         <Navbar />
+        <Pannel />
         <Profile />
         <Header />
       </div>
